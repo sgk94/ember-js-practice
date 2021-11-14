@@ -1,7 +1,6 @@
 # ember-js-practice
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+The purpose of this ember project is to practice and get familiarized with it.
 
 ## Prerequisites
 

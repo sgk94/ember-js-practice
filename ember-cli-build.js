@@ -5,10 +5,19 @@ const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
     // Add options here
+    sassOptions: {
+      extension: 'scss',
+    },
+
+    'ember-bootstrap': {
+      bootstrapVersion: 4,
+      importBootstrapCSS: false,
+    },
   });
 
   // Use `app.import` to add additional libraries to the generated
   // output files.
+  // eslint-disable-next-line prettier/prettier
   //
   // If you need to use different assets in different
   // environments, specify an object as the first parameter. That
